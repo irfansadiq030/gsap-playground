@@ -1,0 +1,47 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #0b0b0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+/* ===== TEXT CONTAINER ===== */
+.hero-text {
+  max-width: 1300px;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.2;
+  perspective: 1200px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+}
+
+/* ===== WORD MASK ===== */
+.word-mask {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  margin-right: 0.3em;
+}
+
+/* ===== WORD ===== */
+.word {
+  display: inline-block;
+  transform-style: preserve-3d;
+  transform-origin: center bottom;
+  will-change: transform, opacity, filter;
+}
