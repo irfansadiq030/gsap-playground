@@ -15,12 +15,11 @@ text.innerHTML = words
 /* ===== GSAP PAGE LOAD ANIMATION ===== */
 window.addEventListener("load", () => {
   gsap.from(".word", {
-    y: 60,
+    y: 80,
     opacity: 0,
-    // filter: "blur(14px)",
     rotateX: 20,
-    duration: 1.2,
+    duration: 1.3,
     ease: "power3.out",
-    stagger: 0.045,
+    stagger: 0.01,
   });
 });
