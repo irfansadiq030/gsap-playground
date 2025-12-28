@@ -8,5 +8,5 @@ This repository is dedicated to practicing **GSAP (GreenSock Animation Platform)
 - **Text Animations:** Typography effects, split text, and reveal animations.
 - **Micro-interactions:** Interactive buttons, hover effects, and custom cursors.
 
-# 📂 Future Reference
+## 📂 Future Reference
 This repo acts as a "Code Vault." When working on a professional project, I can navigate to the specific animation folder, review the logic, and implement the code snippet directly.
